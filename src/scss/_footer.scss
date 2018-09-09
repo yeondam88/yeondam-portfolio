@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  padding-top: 2em;
+  position: relative;
+
+  .footer__social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 7rem;
+    position: relative;
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin: 2em 1em;
+
+        i {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+
+  .footer__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+  }
+}

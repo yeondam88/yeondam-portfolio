@@ -1,0 +1,32 @@
+.content {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .content__about {
+    h1 {
+      font-size: 48px;
+      font-weight: 400;
+      margin-bottom: 24px;
+      text-shadow: 0 .13rem .13rem rgba(108, 99, 255, 0.4);
+
+      .tagline {
+        text-shadow: 0 .13rem .13rem rgba(108, 99, 255, 0.4)
+      }
+    }
+
+    p {
+      color: $primary-light-text-color;
+    }
+  }
+
+  .content__image {
+    width: 38%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

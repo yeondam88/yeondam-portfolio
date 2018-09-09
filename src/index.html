@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <title>Yeondam Park</title>
+</head>
+
+<body class="stripes">
+  <aside class="sidebar">
+    <ul class="sidebar__list">
+      <li class="sidebar__list-item">Home</li>
+      <li class="sidebar__list-item">Porfolio</li>
+      <li class="sidebar__list-item">Skills</li>
+    </ul>
+  </aside>
+  <main class="container">
+    <header class="header__section">
+      <nav class="nav">
+        <div class="nav__logo">
+          <div class="nav__logo-item">Y</div>
+          <h1>Yeondam Park</h1>
+        </div>
+        <ul class="nav__list">
+          <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+          <li><a class="scroll" href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="content">
+      <div class="content__about">
+        <h1>I'm Yeondam Park<br><strong class="tagline">a Front End Engineer</strong></h1>
+        <p>Currently Front-end Developer at <strong>VRS Design</strong></p>
+        <button class="btn">Say Hello <span><img width="13px" height="14px" src="./images/paper-plane.svg" alt=""></span></button>
+      </div>
+      <div class="content__image">
+        <img src="https://vijayverma.co/images/avatar-2.png" alt="Yeondam Park">
+      </div>
+    </section>
+    <section class="portfolio">
+      <h2 id="portfolio" class="section__title">Portfolio</h2>
+      <div class="portfolio__container">
+        <div class="card">
+          <a>
+            <img src="https://cdn.dribbble.com/users/25686/screenshots/5140212/dribbble.jpg" alt="image">
+          </a>
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/44585/screenshots/5140880/wolverine-dribbble.png" alt="image">
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/44585/screenshots/4959706/iron-man-dribbble.png" alt="image">
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/44585/screenshots/4946425/image.png" alt="image">
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/1205252/screenshots/5149974/aloha-tiki.png" alt="image">
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/1205252/screenshots/4853796/catrinas.png" alt="image">
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/1205252/screenshots/4845230/erkaeva-shop.png" alt="image">
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/25686/screenshots/5140212/dribbble.jpg" alt="image">
+        </div>
+      </div>
+      <div class="portfolio__detail">
+        <div><i class="close fas fa-times"></i></div>
+        <div class="portfolio__detail-row">
+          <div class="portfolio__detail-description">
+            <h1>item 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est.
+              Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
+          </div>
+          <img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="portfolio">
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <h2 class="section__title">Skills</h2>
+      <div id="skills" class="skills__info">
+        <ul class="skills__info-list">
+          <li class="skills__info-list--item">
+            <h3>HTML 5</h3><i class="fab fa-html5"></i>
+          </li>
+          <li class="skills__info-list--item">
+            <h3>CSS 3</h3><i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="skills__info-list--item">
+            <h3>JavaScript</h3><i class="fab fa-js-square"></i>
+          </li>
+          <li class="skills__info-list--item">
+            <h3>NodeJS</h3><i class="fab fa-node-js"></i>
+          </li>
+        </ul>
+        <ul class="skills__info-list">
+          <li class="skills__info-list--item">
+            <h3>Sass</h3><i class="fab fa-sass"></i>
+          </li>
+          <li class="skills__info-list--item">
+            <h3>React</h3><i class="fab fa-react"></i>
+          </li>
+          <li class="skills__info-list--item">
+            <h3>Git</h3><i class="fab fa-github"></i>
+          </li>
+          <li class="skills__info-list--item">
+            <h3>Python</h3><i class="fab fa-python"></i>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div id="contact" class="footer__social-container">
+        <ul>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fab fa-github"></i></li>
+        </ul>
+      </div>
+      <div class="footer__info">
+        <p>Stay hungry, Stay foolish</p>
+        <p>© Yeondam Park</p>
+      </div>
+      <div class="bg"></div>
+    </footer>
+  </main>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

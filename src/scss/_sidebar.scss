@@ -1,0 +1,15 @@
+.sidebar {
+  position: fixed;
+  left: -10%;
+
+  .sidebar__list {
+    list-style: none;
+    background: #eee;
+    box-shadow: $box-shadow;
+    text-align: center;
+
+    &-item {
+      padding: 1.5em;
+    }
+  }
+}
